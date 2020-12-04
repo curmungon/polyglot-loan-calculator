@@ -5,7 +5,7 @@ echo( && echo(
 
 :: calls -> loanCalc(principal, interestRate, periodsPerYear, numberOfYears)
 
-python .\calculator.py 1000 5 12 1
+node .\dist\calculator.js 1000 5 12 1
 
 echo( && echo(
 pause
